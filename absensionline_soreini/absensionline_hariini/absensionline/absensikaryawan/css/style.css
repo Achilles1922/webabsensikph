@@ -1,0 +1,114 @@
+/* Atur background gambar */
+body {
+  background: url('/images/hutanbackgrnd.png') no-repeat center center fixed; /* Menetapkan gambar latar belakang untuk body */
+  background-size: cover; /* Menjamin gambar latar belakang menutupi seluruh body */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font modern */
+  color: #333; /* Warna teks */
+  margin: 0; /* Menghapus margin default */
+  padding: 0; /* Menghapus padding default */
+}
+
+/* Atur container (wrapper form) */
+.container {
+  background: rgba(255, 255, 255, 0.7); /* Latar belakang putih dengan sedikit transparansi */
+  width: 380px; /* Menetapkan lebar container */
+  padding: 25px; /* Menambahkan padding di sekitar konten dalam container */
+  border-radius: 10px; /* Sudut container menjadi melengkung */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12); /* Menambahkan bayangan lembut pada container */
+  margin: 80px auto; /* Membuat container terpusat dengan margin atas 80px */
+  text-align: center; /* Menyelaraskan teks di tengah */
+  font-size: 15px; /* Ukuran font moderat */
+}
+
+/* Styling logo */
+.login-logo {
+  width: 100px; /* Menetapkan lebar logo */
+  height: auto; /* Mempertahankan rasio aspek logo */
+  margin-bottom: 20px; /* Spasi di bawah logo */
+}
+
+.logo-text {
+  font-size: 20px; /* Menetapkan ukuran font untuk teks logo */
+  font-weight: bold; /* Font tebal */
+  color: #2a7d2e; /* Warna hijau */
+  margin-bottom: 20px; /* Spasi di bawah teks logo */
+  text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+  letter-spacing: 1.5px; /* Spasi huruf sedikit */
+}
+
+/* Styling form */
+form {
+  display: flex; /* Menggunakan flexbox untuk mengatur elemen form */
+  flex-direction: column; /* Menata elemen form secara vertikal */
+  gap: 15px; /* Spasi antara setiap elemen form */
+}
+
+/* Styling label */
+label {
+  font-weight: 600; /* Berat font tebal untuk label */
+  text-align: left; /* Menyelaraskan label ke kiri */
+  font-size: 14px; /* Ukuran font untuk label */
+  margin-bottom: 4px; /* Spasi di bawah label */
+  color: #444; /* Warna label yang lebih gelap */
+}
+
+/* Styling input field */
+input {
+  padding: 10px; /* Padding di dalam kolom input */
+  border: 1px solid #ccc; /* Border abu-abu terang untuk input */
+  border-radius: 6px; /* Sudut melengkung sedikit pada kolom input */
+  font-size: 15px; /* Ukuran font dalam kolom input */
+  width: 100%; /* Kolom input memenuhi lebar penuh */
+  box-sizing: border-box; /* Memastikan padding termasuk dalam lebar */
+  transition: all 0.3s ease; /* Transisi halus untuk efek fokus */
+}
+
+/* Styling saat input dalam keadaan fokus */
+input:focus {
+  border-color: #2a7d2e; /* Mengubah warna border menjadi hijau saat fokus */
+  box-shadow: 0 0 5px rgba(42, 125, 46, 0.5); /* Menambahkan efek cahaya hijau di sekitar input */
+  outline: none; /* Menghapus outline default saat fokus */
+}
+
+/* Styling tombol */
+button {
+  background: #2a7d2e; /* Latar belakang hijau untuk tombol */
+  color: white; /* Warna teks putih untuk tombol */
+  border: none; /* Menghapus border default */
+  padding: 12px; /* Padding di dalam tombol */
+  border-radius: 6px; /* Sudut melengkung pada tombol */
+  font-size: 16px; /* Ukuran font untuk teks tombol */
+  cursor: pointer; /* Menampilkan kursor pointer saat tombol di-hover */
+  width: 100%; /* Tombol memenuhi lebar penuh */
+  text-transform: uppercase; /* Teks tombol menjadi kapital */
+  letter-spacing: 1px; /* Spasi huruf sedikit pada teks tombol */
+  transition: all 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+/* Efek saat tombol di-hover */
+button:hover {
+  background: #1e5d23; /* Latar belakang lebih gelap saat di-hover */
+  transform: translateY(-2px); /* Tombol sedikit bergerak ke atas */
+}
+
+/* Efek saat tombol diklik */
+button:active {
+  transform: translateY(1px); /* Tombol sedikit bergerak ke bawah saat diklik */
+}
+
+/* Styling link */
+p {
+  font-size: 14px; /* Ukuran font lebih kecil untuk teks paragraf */
+  margin-top: 8px; /* Spasi di atas paragraf */
+}
+
+a {
+  color: #2a7d2e; /* Warna hijau untuk link */
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  font-weight: 600; /* Berat font tebal untuk link */
+}
+
+/* Efek saat link di-hover */
+a:hover {
+  text-decoration: underline; /* Menambahkan garis bawah pada link saat di-hover */
+}
